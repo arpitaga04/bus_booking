@@ -775,7 +775,6 @@ class user
 	
 	void generate_bill()
 	{
-		//cout<<"\n\nYour Bill :\n";
 		cout<<"\n\nName 			       : 	"<<fname<<" "<<lname;
 		cout<<"\nEmail   		       : 	"<<email;
 		cout<<"\nContact number 	               :        "<<mob;
@@ -785,8 +784,6 @@ class user
 		cout<<"\nDate 			       :        "<<doj.d<<"/"<<doj.m<<"/"<<doj.y;
 		cout<<"\nTravelling From 	       : 	"<<from<<"   To : "<<to;
 		cout<<"\nFare in INR  		       :        "<<fare;
-		 
-		//system("clear");
 		
 	}
 	public:
